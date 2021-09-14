@@ -2,9 +2,59 @@
 <html lang="en">
   <head> 
     <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Website</title>
   </head>
   <body>
     <h1>Welcome To My Travels!</h1>
+    <section id="intro">
+        <p>
+            My travels have been many, and nothing brings me more joy than showcasing places to people whom have either never heard of such place, or have been dreaming of such place their entire lives.  I will be displaying some of my favorite locations I have visisted using the skills I have learned during the pre-work portion of the Software Engineering class from Flatiron School.
+        </p>
+        <p>
+            This website consists of HTML, CSS, and Java.  They are now working harmoniously to show you your next travel destinations ;)
+        </p>
+    </section>
+    <section>
+        <div class="slideshow">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 4</div>
+                <img src="DSC07148-1.jpg" style="width:100%">
+                <div class="text">Santa Cruz, Bolivia</div>
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">2 / 4</div>
+                <img src="DSC01392-1.jpg" style="width:100%">
+                <div class="text">Salar De Uyuni, Bolivia</div>
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">3 / 4</div>
+                <img src="_DSC4047-1.jpg" style="width:100%">
+                <div class="text">Sajama, Bolivia</div>
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 4</div>
+                <img src="_DSC5466-1-2.jpg" style="width:100%">
+                <div class="text">La Paz, Bolivia</div>
+            </div>
+        
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+
+        <script src="script.js"></script>  
+    </section>
   </body>
 </html>
